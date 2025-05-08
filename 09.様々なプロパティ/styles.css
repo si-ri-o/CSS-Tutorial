@@ -37,6 +37,18 @@ footer {
 }
 
 
-/* img要素にスタイルを適用 */
+img {
+  width: 200px;
+  height: 200px;
+}
 
-/* header要素にスタイルを適用 */
+.cover {
+  object-fit: cover;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+}
